@@ -1,6 +1,28 @@
-h1 {
-  background: blue;
-  height: 100vh;
-  width: 100vw;
-  color: white;
+body {
+  background: rgb(206, 205, 205);
+  font-weight: bolder;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+}
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  clear: both;
+}
+.card {
+  padding: 1.25rem;
+  background: white;
+}
+.card-one {
+  padding: 1rem;
+  background: whitesmoke;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.card-two {
+  padding: 1rem;
+  background: whitesmoke;
+  margin: 1rem;
+  border-radius: 1rem;
 }
